@@ -1,0 +1,32 @@
+solomons-MacBook-Pro:SoloCode solomonbutler$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Mod1.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+solomons-MacBook-Pro:SoloCode solomonbutler$ git add .
+solomons-MacBook-Pro:SoloCode solomonbutler$ git commit -m
+error: switch `m' requires a value
+solomons-MacBook-Pro:SoloCode solomonbutler$ git commit -m "added new commands"
+[main aff74c3] added new commands
+ 1 file changed, 72 insertions(+)
+ create mode 100644 Mod1.md
+solomons-MacBook-Pro:SoloCode solomonbutler$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+solomons-MacBook-Pro:SoloCode solomonbutler$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 978 bytes | 978.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Solomonbutler13/SoloCode.git
+   a952043..aff74c3  main -> main
+solomons-MacBook-Pro:SoloCode solomonbutler$ 
