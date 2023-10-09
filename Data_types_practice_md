@@ -1,0 +1,50 @@
+1. What is the keyword used to check the data type of a value in JavaScript?
+``` js 
+typeof 'whatever'
+```
+```
+2. What does the `typeof` keyword return when used with a number?
+``` js
+typeof 45 'number'
+```
+```
+
+3. What does the `typeof` keyword return when used with a string?
+```
+typeof 'whatever''string'
+```
+
+4. What does the `typeof` keyword return when used with a boolean?
+
+
+
+5. What does the `typeof` keyword return when used with an array?
+``` js
+> typeof [1,2,3]
+'object'
+```
+
+
+6. What does the `typeof` keyword return when used with an object?
+
+``` js
+typeof {name: 'Solomon'}
+'object'
+``````
+
+7. What does the `typeof` keyword return when used with a function?
+``` js
+typeof function(){}
+'function'
+
+
+8. What is the difference between `null` and `undefined` in JavaScript?
+
+Intentionality
+
+
+9. What does the `NaN` value represent in JavaScript?
+
+
+
+10. How can you check if a value is `NaN` in JavaScript?
