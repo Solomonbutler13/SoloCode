@@ -1,0 +1,21 @@
+const fname = 'Solomon'
+console. log(fname)
+
+const lname = 'Butler'
+console. log(lname)
+
+const houseNum = '879'
+console. log(houseNum)
+
+const street ='E 2nd Street'
+console. log(street)
+
+const city ='Brooklyn'
+console. log(city)
+
+const state = 'NY'
+console. log(state)
+
+const zip = '11203'
+console. log(zip)
+
