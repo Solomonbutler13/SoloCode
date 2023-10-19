@@ -60,7 +60,7 @@ console. log (string[5])
 
 // 8. Write code to grab the first 3 letters from a string.
 
-console.log (string. slice[0,2])
+console.log (string .slice[0,2])
 
 // 9. Turn the following string into an array of words: 'This-is-a-sentence';
 const sentence1 = 'This-is-a-sentence'.split('-') 
