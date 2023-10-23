@@ -56,13 +56,18 @@ console.log(week)
 
 console.log(week.indexOf('Thursday'))
 
+week[4] = 'Friday Junior'
 
+console.log(week)
 
 
 //11.   Extract your favorite day from the array and log the string: 'My favorite day of the week is (day)'
 
+console.log(week.indexOf('Friday'))
 
+week[5] = 'My favorite day of the week is Friday'
 
+console.log(week)
 //12.   Combine these two arrays together
 let phone = ['iphone', 'android']
 let laptop = ['MacBook', 'HP', 'Dell']
@@ -117,6 +122,25 @@ Saturday
   'Saturday'
 ]
 4
+[
+  'Sunday',
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Friday Junior',
+  'Friday',
+  'Saturday'
+]
+5
+[
+  'Sunday',
+  'Monday',
+  'Tuesday',
+  'Wednesday',
+  'Friday Junior',
+  'My favorite day of the week is Friday',
+  'Saturday'
+]
 [ 'iphone', 'android', 'MacBook', 'HP', 'Dell' ]
 [ 1, 2, 3, 4 ]
 true
