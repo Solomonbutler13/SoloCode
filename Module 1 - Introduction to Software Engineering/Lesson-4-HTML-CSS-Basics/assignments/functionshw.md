@@ -55,13 +55,13 @@
    - Example: year: 1999 returns "20th century".
    - Example: year: 2023 returns "21st century". */
    
-   function getCentury(year) {
+   function Century(year) {
       const century = Math.ceil(year / 100); 
-      const suffix = getCenturySuffix(century); 
+      const suffix = CenturySuffix(century); 
       return `${century}${suffix} century`;
     }
     
-    function getCenturySuffix(century) {
+    function CenturySuffix(century) {
       if (century >= 11 && century <= 13) {
         return "th";
       }
@@ -79,8 +79,8 @@
           return "th";
       }
     }
-    console.log(getCentury(1999));
-    console.log(getCentury(2023));
+    console.log(Century(1999));
+    console.log(Century(2023));
 ```
 
 ```output
