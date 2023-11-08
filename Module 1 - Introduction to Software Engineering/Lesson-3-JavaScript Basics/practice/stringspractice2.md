@@ -53,6 +53,7 @@ console.log (parseInt(ten)+ parseInt(five))
 const sentence = 'Welcome to the jungle!'.split(' ')
 console.log(sentence) 
 
+
 ```
 
 ```output

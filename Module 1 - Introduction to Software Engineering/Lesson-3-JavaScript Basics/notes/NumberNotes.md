@@ -83,7 +83,49 @@ console.log(Math.pow(6, 2)); // 36
 // Square Root
 console.log(Math.sqrt(36)); // 6
 
+function filterFriends(names) {
+    const friendNames = [];
+    for (let i = 0; i < names.length; i++) {
+      if (names[i].length === 4) {
+        friendNames.push(names[i]);
+      }
+    }
+    return friendNames;
+  }
+  
+  const inputNames = ["Ryan", "Kieran", "Jason", "Yous"];
+  const friendList = filterFriends(inputNames);
+  
+  console.log(friendList);
 
 
 
+```
+
+```output
+Multiplying x and y:
+10
+Dividing x and y:
+2.5
+Subtracting x and y:
+3
+Adding x and y:
+7
+Remainder when dividing x and y:
+1
+The result of x _ y + z is:
+20
+1
+5
+3
+12
+4
+2
+1
+2
+1
+4
+36
+6
+[ 'Ryan', 'Yous' ]
 ```

@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(107, 85, 85);
+}
+
+p{
+    background-color: hsl(180, 100%, 0%);
+    color: aliceblue;
+}
+
+img src {
+    position: relative;
+    left: 60px;;
+}
+
+h1 {
+    background-color: blueviolet;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+h2{
+    text-align: center;
+}
+
+h3 { 
+    text-align: center;
+    border-color: rgb(126, 48, 48);
+
+}
+
+ul {
+    text-align: center;
+}
+
+img{
+    position: relative;
+    left: 60px;;
+}
