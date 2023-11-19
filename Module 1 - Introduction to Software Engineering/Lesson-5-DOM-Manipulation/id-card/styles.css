@@ -1,0 +1,73 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 66vw;
+    align-items: center;
+    border: 4px solid blue;
+    border-radius: 15px;
+}
+
+
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input {
+    border: 1px solid blue;
+    border-radius: 5px;
+ 
+}
+
+label {
+margin-top: 10px;
+
+}
+
+#submit {
+    margin: 20px 20px 20px 0;
+    width: 100px;
+    height: 30px;
+    align-self: flex-end;
+}
+
+.card {
+    display: flex;
+    border-radius: 16px;
+    border: 4px solid blue;
+    width: 66vw;
+    height: 40vh
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#avatar {
+    width:90%;
+    max-height:40vh;
+    border-radius: 100%
+}
+
+.right {
+    width:50%;
+    display: flex;
+    flex-direction: column
+    justify-content space-evenly;
+}
+
+
+.info-field {
+    height: 25%;
+    border: 1px solid blue ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
