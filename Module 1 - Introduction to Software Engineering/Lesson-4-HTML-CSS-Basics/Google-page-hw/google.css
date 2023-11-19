@@ -7,7 +7,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
-    background-color: #8ca0ff;
+    background-color: #eeeff4;
     height:50px ;
   }
 
@@ -16,21 +16,29 @@ header {
     display: flex; 
     flex-direction:column;
     align-items:center; 
-    background-color: blueviolet;
-
+    background-color: rgb(245, 244, 245);
  }
 
+ bigbox {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  background-color: white;
+ }
+ 
+ 
+ 
  footer {
    height: 50px; ;
     display: flex; 
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(43, 226, 98);
+    background-color: rgb(184, 188, 184);
    
  }
 
 #box1 {
-border: 2px solid black;
+border: 2px solid rgb(158, 157, 157);
  }
 
 
@@ -39,25 +47,38 @@ border: 2px solid black;
    border: 2px solid black;
 }
 
+#box. {
+  
+
+}
 #box3 {
-   border: 2px solid black;
+   display:flex;
+   flex-direction: column;
+   border: 2px solid rgb(241, 236, 236);
+   width: 290px;
+   height: vh ;
+   
+   
 }
 
 
 
-#box4 {
-   border: 2px solid black;
-}
+
 
 
 #box5 {
-   border: 2px solid black;
+   display:flex;
+   flex-direction: row;
+   justify-content:space-evenly ;
 }
 
-
+#box..{
+   border: radius 1px; ;
+   border-color: aquamarine;
+}
 
 #box6 {
-   border: 2px solid black;
+ 
 }
 
 
