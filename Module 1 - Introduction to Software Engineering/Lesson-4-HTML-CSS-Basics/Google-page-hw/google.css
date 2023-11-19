@@ -1,0 +1,77 @@
+#page { 
+ height: 100vh ;
+  }
+
+header {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #8ca0ff;
+    height:50px ;
+  }
+
+ Main {
+    height:50% ;
+    display: flex; 
+    flex-direction:column;
+    align-items:center; 
+    background-color: blueviolet;
+
+ }
+
+ footer {
+   height: 50px; ;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(43, 226, 98);
+   
+ }
+
+#box1 {
+border: 2px solid black;
+ }
+
+
+
+#box2 {
+   border: 2px solid black;
+}
+
+#box3 {
+   border: 2px solid black;
+}
+
+
+
+#box4 {
+   border: 2px solid black;
+}
+
+
+#box5 {
+   border: 2px solid black;
+}
+
+
+
+#box6 {
+   border: 2px solid black;
+}
+
+
+#box7 {
+   border: 2px solid black;
+}
+
+
+
+
+#box8 {
+   border: 2px solid black;
+}
+
+#box9 {
+   border: 2px solid black;
+}
