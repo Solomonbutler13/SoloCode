@@ -24,3 +24,7 @@ Usage
 
 Open index.html
 MIT
+
+Whimsical link 
+
+https://whimsical.com/examples-and-inspiration-Eyejx8xjiyygdRMVQXdYeX
