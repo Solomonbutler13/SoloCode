@@ -13,7 +13,7 @@ function loopAndPrint(arr){
     }
 }
 
-// 1.   What is the big O of the following function
+// 3.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function findMax(arr){
@@ -28,13 +28,13 @@ function findMax(arr){
     return max;
 }
 
-// 2.   What is the big O of the following function
+// 4.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 function printLast(arr){
     console.log(arr[arr.length-1]);
 }
 
-// 3.   What is the big O of the following function
+// 5.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 function everyOther(str){
     let newStr = '';
@@ -46,14 +46,14 @@ function everyOther(str){
     return newStr;
 }
 
-// 4.   What is the big O of the following function
+// 6.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function doubled(num) {
     return 2 * num
 }
 
-// 5.   What is the big O of the following function
+// 7.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function multipleSteps(num) {
@@ -61,7 +61,7 @@ function multipleSteps(num) {
     return final * 3
 }
 
-// 5.   What is the big O of the following function
+// 8.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function backwardsArr(arr) {
@@ -71,7 +71,7 @@ function backwardsArr(arr) {
     }
     return arrReversed
 }
-// 6.   What is the big O of the following function
+// 9.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function multiplyAll(arr1, arr2) {
@@ -84,19 +84,19 @@ function multiplyAll(arr1, arr2) {
     }
     return total
 }
-// 7.   What is the big O of the following function
+// 10.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 let nums = [10,20,30,40];
 nums.push(50);
 
-// 8.   What is the big O of the following function
+// 11.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 let nums2 = [10,20,30,40];
 nums.unshift(0);
 
-// 9.   What is the big O of the following function
+// 12.   What is the big O of the following function
 //      Describe what the function does and use that as the reasoning for your answer.
 
 function logTime(arr) {

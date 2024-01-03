@@ -50,9 +50,31 @@
 /* -------------------------------------------------------------------------- */
 // DELETE BUTTON FUNCTION 
 
-let button = document.getElementById("click"),
-      count = 0;
-button.onclick=function() {
-count += 1
-button.innerHTML = "Click: " + count
+// Get the h1 element
+const counterElement = document.getElementById("counter");
+
+// Get the increment and decrement buttons
+const incrementButton = document.getElementById("increment");
+const decrementButton = document.getElementById("decrement");
+
+// Set initial count
+let count = 0;
+
+// Update the text content of the h1 element
+function updateCounter() {
+    counterElement.textContent = count;
 }
+
+// Increment the count and update the counter
+incrementButton.addEventListener("click", function() {
+    count++;
+    updateCounter();
+});
+
+// Decrement the count (if greater than zero) and update the counter
+decrementButton.addEventListener("click", function() {
+    if (count > 0) {
+        count--;
+        updateCounter();
+    }
+});
